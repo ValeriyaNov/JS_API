@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  background-color: #CDA2AB;
+  color: #1C0D11;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.record {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.record__header {
+  background-color: #AEB4A9;
+  border: 1px solid black;
+  padding: 10px;
+}
+.record__item {
+  font-weight: inherit;
+  background-color: inherit;
+}
+
+.btn {
+  padding: 5px;
+}
+.btn__save {
+  background-color: #AEB4A9;
+  color: black;
+  border: 1px solid #AEB4A9;
+}
+.btn__cancel {
+  background-color: #D8829D;
+  color: black;
+  border: 1px solid #D8829D;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: auto;
+  pointer-events: none;
+}/*# sourceMappingURL=style.css.map */
