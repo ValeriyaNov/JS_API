@@ -1,20 +1,30 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.title {
+  color: #40383a;
+  text-align: center;
+  margin: 30px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
 .scroller-item {
-  /* To start with */
-  background-color: #1f1e1e;
-  /* For demo */
+  background-color: #40383a;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
   min-width: 100%;
   height: 45vh;
   min-height: 200px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
 }
 
 .scroller {
@@ -25,13 +35,11 @@
 }
 
 .btn {
-  ууposition: absolute;
-  уtop: 50%;
   margin-top: 30px;
   height: 50px;
   width: 150px;
   border-radius: 15px;
-  background-color: rgba(95, 106, 117, 0.3);
+  background-color: #ab969c;
   line-height: 50px;
   text-align: center;
   color: black;
@@ -41,11 +49,14 @@
 .container {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .btn:hover {
-  background-color: rgba(95, 106, 117, 0.5);
+  background-color: #40383a;
+  transition: 1s;
   cursor: pointer;
+  color: #ab969c;
 }
 
 .next {
@@ -54,4 +65,16 @@
 
 .prev {
   left: 15px;
+}
+
+.sim-slider-dots {
+  color: #ab969c;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.dissable {
+  color: #40383a;
 }/*# sourceMappingURL=style.css.map */
