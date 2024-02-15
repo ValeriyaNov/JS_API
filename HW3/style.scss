@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.name,
+.counter {
+    color: #40383a;
+    text-align: center;
+    margin: 30px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.photo-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.photo-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    lgap: 15px;
+    align-items: center;
+}
+
+.like {
+    color: white;
+    font-size: 40px;
+}
+
+.pressed {
+    color: hotpink;
+}
+
+.btn {
+    width: 358px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 2px solid #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
